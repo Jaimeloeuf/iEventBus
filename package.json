@@ -1,11 +1,22 @@
 {
-    "name": "eventbus",
+    "name": "ieventbus",
     "version": "0.1.0",
     "description": "Package for creating Isolated event buses for namespacing events in the browser.",
-    "main": "events.js",
+    "main": "./src/index.js",
+    "files": [
+        "/src"
+    ],
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Jaimeloeuf/iEventBus.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Jaimeloeuf/iEventBus/issues"
+    },
+    "homepage": "https://github.com/Jaimeloeuf/iEventBus#readme",
     "keywords": [
         "Events",
         "EventBus",
@@ -14,6 +25,10 @@
         "events",
         "dom"
     ],
-    "author": "Jaime Loeuf",
+    "author": {
+        "name": "Jaime Loeuf",
+        "email": "jaimeloeuf@gmail.com",
+        "url": "https://jaimeloeuf.github.io/"
+    },
     "license": "MIT"
 }
