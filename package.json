@@ -1,0 +1,19 @@
+{
+    "name": "eventbus",
+    "version": "0.1.0",
+    "description": "Package for creating Isolated event buses for namespacing events in the browser.",
+    "main": "events.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "Events",
+        "EventBus",
+        "isolated",
+        "browser",
+        "events",
+        "dom"
+    ],
+    "author": "Jaime Loeuf",
+    "license": "MIT"
+}
