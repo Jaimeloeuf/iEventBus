@@ -5,9 +5,8 @@
     a enclosed event bus system.    
 
     @Todo
-    - Clean up the codes
     - Add remove event listener method
-    - Create a lib for this event bus
+    - Clean up
 */
 
 
