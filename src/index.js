@@ -10,7 +10,7 @@
 */
 
 
-function EventBus(event_names = []) {
+export default function EventBus(event_names = []) {
     /*  @Docs
         Factory function for creating isolated event bus instances with a clean interface.
         Function takes in an array of event_names. Events can also be added/created later on.
